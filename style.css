@@ -1,0 +1,1030 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.menu-mobile-icon{
+   display: none;
+}
+body {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(./foto/foto1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+     }
+    
+    header .container{
+      background-color: black transparent;
+      display: flex;
+      justify-content: space-between;
+     }
+
+     .logo img{
+        width: 125px;
+        border-radius: 50%;
+     }
+
+     nav {
+        display: flex;
+        margin: 60px;
+     }
+
+     nav ul{
+        display: flex;
+       gap: 40px;
+       padding-right: 20px;
+     }
+
+     nav ul li{
+        list-style-type: none;
+     }
+
+     nav ul li a{
+        text-decoration: none;
+        color: white;
+     }
+
+     nav i{
+        color: brown;
+        font-size: 25px;
+     }
+
+     main .container{
+      height: 500px;
+      display: grid;
+      color: white;
+      margin-top: 80px;
+      margin-left: 100px;
+     }
+
+     main .container h1{
+      text-shadow: 7px -1px 7px rgba(0, 0, 0, 0.6);
+     }
+
+     main .container h1 em{
+      margin-left: 100px;
+     }
+
+     main .container p{
+      margin-left: 150px;
+      margin-bottom: 30px;
+      display: inline;
+      text-shadow: 7px -1px 7px black;
+     }
+
+     main .container span a {
+      margin: 50px;
+      color: rgb(182, 182, 182);
+      border: 1px solid rgba(128, 34, 34, 0.897);
+      background-color: rgba(128, 34, 34, 0.897);
+      padding: 5px;
+      border-radius: 10px;
+      text-decoration: none;
+     }
+
+     main .container .ikonat{
+      margin-top: 130px;
+      margin-left: 200px;
+      font-size: 20px;
+     }
+
+     main .container .ikonat a{
+      color: rgba(46, 4, 160, 0.897);
+      font-size: 25px;
+      padding-right: 20px;
+     }
+
+     main .container .ikonat .instagram{
+      color: rgb(194, 30, 66);
+     }
+     
+     main .container .ikonat {
+      color: black;
+     }
+
+     section#Rreth-nesh{
+      background-color: black;
+      color: white;
+      width: 100%;
+      height: 897px;
+      margin-bottom: 50px;
+   }
+
+      section#Rreth-nesh .container{
+         display: grid;
+         grid-template-columns: 3fr 2fr;
+         gap:30px;
+      }
+
+      section#Rreth-nesh a{
+         text-decoration: none;
+      }
+
+      section#Rreth-nesh h3{
+         margin-left: 300px;
+         color:  rgba(128, 34, 34, 0.897);
+         font-size: 30px;
+      }
+
+      section#Rreth-nesh  h3{
+         text-align: center;
+         color:  rgba(128, 34, 34, 0.897);
+         font-size: 30px;
+      }
+
+      section#Rreth-nesh .content p {
+         padding-top: 100px;
+         padding-left: 50px;
+      }
+
+      section#Rreth-nesh .content li{
+         padding-left: 50px;
+      }
+
+      section#Rreth-nesh .content h2{
+         padding-top: 50px;
+         text-align: center;
+         font-style: italic;
+         color:  rgba(128, 34, 34, 0.897);
+      }
+
+      section#Rreth-nesh .animacioni{
+         width: 450px;
+         margin-top: 150px;
+         background: url(./foto/benkica1.jpg);
+         background-position: center;
+         background-size: cover;
+         animation: slide 20s infinite;
+      }
+
+      @keyframes slide{
+         25%{
+            background: url(./foto/bluza1.jpg);
+            background-position: center;
+            background-size: cover;
+         }
+         50%{
+            background: url(./foto/duksi1.jpg);
+            background-position: center;
+            background-size: cover;
+         }
+         75%{
+            background: url(./foto/maica3.jpg);
+            background-position: center;
+            background-size: cover;
+         }
+         100%{
+            background: url(./foto/benkica1.jpg);
+            background-position: center;
+            background-size: cover;
+         }
+       }
+
+       section#Rreth-nesh .videot{
+         margin-top: 100px;
+         margin-left: 300px;
+       }
+
+       section#Klientet{
+         background-color: black;
+      color: white;
+      height: 770px;
+      margin-bottom: 50px;
+       }
+
+       section#Klientet h3{
+         text-align: center;
+         color:  rgba(128, 34, 34, 0.897);
+         font-size: 30px;
+         margin-bottom: 30px;
+       }
+
+       section#Klientet .klientet {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+       }
+
+       section#Klientet  img{
+         width: 250px;
+       }
+
+       section#Vlersimet {
+         background-color: black;
+      color: white;
+      height: 770px;
+      margin-bottom: 50px;
+       }
+
+       section#Vlersimet h3{
+         text-align: center;
+         color:  rgba(128, 34, 34, 0.897);
+         font-size: 30px;
+         margin-bottom: 30px;
+         padding-top: 30px;
+       }
+
+       section#Vlersimet .vlersimet{
+         display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 10px;
+        grid-row-gap: 10px;
+       }
+
+       section#Vlersimet .klienti{
+         height: 200px;
+         width: 550px;
+         border: 1px solid white;
+         padding-top: 50px;
+         padding-left: 10px;
+         background-color: rgb(46, 39, 39);
+       }
+
+       section#Vlersimet .klienti blockquote{
+         font-style: italic;
+       }
+
+       section#Modelet{
+         background-color: black;
+      color: white;
+      height: 100%;
+      margin-bottom: 50px;
+       }
+
+       section#Modelet a{
+         text-decoration: none;
+       }
+
+       section#Modelet h3{
+         text-align: center;
+         color:  rgba(128, 34, 34, 0.897);
+         font-size: 30px;
+         margin-bottom: 30px;
+       }
+
+       section#Modelet .modelet{
+         display: grid;
+        grid-template-columns: repeat(4, 1fr);
+       }
+
+       section#Modelet  img{
+         width: 250px;
+         transition: 0.2s ease;
+       }
+
+       .modelet img:hover{
+         transform: scale(1.1);
+       }
+
+       section#Modelet h4{
+        margin-left: 100px;
+       }
+
+       .menuja{
+         margin: auto;
+         width: 990px;
+         background-color: rgba(51, 49, 49, 0.932);
+         border: 1px solid white;
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         padding: 10px 10px;
+         grid-column-gap: 10px;
+         grid-row-gap: 10px;
+      }
+
+      .titulli{
+         color: white;
+         text-align: center;
+         font-size: 25px;
+         margin-top: 40px;
+         margin-bottom: 40px;
+         letter-spacing: 2px;
+      }
+
+      .maicat img{
+         width: 250px;
+        transition: 0.2s ease;
+      }
+
+      .maicat img:hover{
+       transform: scale(1.1);
+      }
+   
+      section#porosia{
+         margin: 50px auto;
+         width: 500px;
+         height: 700px;
+         background-color: rgba(0, 0, 0, 0.808);
+      }
+
+      section#porosia a{
+         text-align: center;
+         color:  rgba(128, 34, 34, 0.897);
+         text-decoration: none;
+         font-size: 25px;
+      }
+
+      section#porosia .forma{
+        margin-top: 50px;
+        text-align: center;
+        color:  white;
+      }
+
+      section#porosia .forma form {
+         padding-bottom: 10px;
+      }
+
+      section#porosia .forma input{
+         margin-bottom: 10px;
+         border: 1px solid rgba(172, 163, 163, 0.404);
+         background-color: rgba(128, 34, 34, 0.897);
+      }
+
+      section#porosia .forma select{
+         border: 1px solid rgba(172, 163, 163, 0.404);
+         background-color: rgba(128, 34, 34, 0.897);
+      }
+
+      section#porosia .forma textarea{
+         border: 1px solid rgba(172, 163, 163, 0.404);
+         background-color: rgba(128, 34, 34, 0.897);
+      } 
+
+      footer .footer{
+         height: 200px;
+         background-color: rgb(63, 2, 2);
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         color: white;
+         margin-bottom: 50px;
+      }
+
+      footer .pershkrimi  i{
+         margin-top: 50px;
+         text-align: center;
+         border: 1px solid ;
+         background-color: black;
+         padding: 5px;
+         color:  rgb(63, 2, 2);
+         font-size: 25px;
+      }
+
+      footer .footer-bottom{
+         height: 300px;
+         background-color: black;
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         color: white;
+      }
+
+      footer .footer-bottom img{
+         width: 150px;
+         border-radius: 50%;
+      }
+
+      footer .lokacioni a{
+         text-decoration: none;
+      }
+
+      footer .lokacioni h2{
+         color: white;
+         text-align: center;
+         margin-bottom: 50px;
+      }
+
+      footer .logo-posht p{
+         margin-right: 50px;
+      }
+
+      footer .menyja h3{
+         margin-top: 30px;
+         margin-bottom: 40px;
+      }
+
+      footer .menyja ul {
+         gap: 10px;
+      }
+
+      footer .menyja ul li{
+         list-style-type: none;
+         padding-bottom: 15px;
+      }
+
+      footer .menyja ul li a{
+         text-decoration: none;
+         color: brown;
+         padding-bottom: 15px;
+      }
+
+      footer .last-footer p{
+         height: 50px;
+         background-color: white;
+         text-align: center;
+         padding-top: 10px;
+         font-size: 20px;
+      }
+
+      footer .kontakti h3{
+         margin-top: 30px;
+         margin-bottom: 40px;
+      }
+     
+      footer .kontakti .facebooki{
+         color: blue; 
+      }
+
+      footer .kontakti .instagrami{
+         color: rgb(226, 43, 150);
+      }
+
+      footer .kontakti .telefoni i{
+         color: rgb(70, 59, 0);
+      }
+
+
+
+      @media (max-width: 400px){
+         *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;}
+
+            .menu-mobile-icon a{
+               display: block;
+            }
+
+
+        
+        
+        body {
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(./foto/mediafoto.jpg);
+            background-repeat: repeat;
+            background-size: cover;
+            background-attachment: fixed;
+             }
+            
+            header .container{
+              background-color: black transparent;
+              display: flex;
+              justify-content: space-between;
+             }
+
+             .logo img{
+                width: 125px;
+                border-radius: 50%;
+             }
+             .logo{
+               display: flex;
+               
+             }
+
+             .menu-mobile-icon{
+               display: inline;
+               padding-left: 200px;
+               padding-top: 50px;
+               color: white;
+               font-size: 20px;
+             }
+             
+   
+             nav {
+                display: flex;
+                margin: 60px;
+                display: none;
+             }
+        
+             nav ul{
+                display: flex;
+               gap: 40px;
+               padding-right: 20px;
+             }
+        
+             nav ul li{
+                list-style-type: none;
+             }
+        
+             nav ul li a{
+                text-decoration: none;
+                color: white;
+             }
+        
+             nav i{
+                color: brown;
+                font-size: 25px;
+             }
+        
+             main .container{
+              height: 500px;
+              display: flex;
+              flex-direction: column;
+              color: white;
+              margin-top: 80px;
+              margin-left: 100px;
+             }
+        
+             main .container h1{
+              text-shadow: 7px -1px 7px rgba(0, 0, 0, 0.6);
+             }
+        
+             main .container h1 em{
+              margin-left: -10px;
+             }
+        
+             main .container p{
+              margin-left: -20px;
+              margin-top: 50px;
+              display: inline-block;
+              text-shadow: 7px -1px 7px black;
+             }
+        
+             main .container span a {
+              margin: 50px;
+              margin-left: 40px;
+              color: rgb(182, 182, 182);
+              border: 1px solid rgba(128, 34, 34, 0.897);
+              background-color: rgba(128, 34, 34, 0.897);
+              padding: 5px;
+              border-radius: 10px;
+              text-decoration: none;
+             }
+        
+             main .container .ikonat{
+              margin-top: 60px;
+              margin-left: -20px;
+              font-size: 20px;
+              
+             }
+        
+             main .container .ikonat a{
+              color: rgba(46, 4, 160, 0.897);
+              font-size: 25px;
+              padding-right: 20px;
+             }
+        
+             main .container .ikonat .instagram{
+              color: rgb(194, 30, 66);
+             }
+             
+             main .container .ikonat {
+              color: rgb(235, 235, 235);
+             }
+             
+        
+             section#Rreth-nesh{
+              background-color: black;
+              color: white;
+              width:auto;
+              height: auto;
+              margin-bottom: 50px;
+           }
+        
+              section#Rreth-nesh .container{
+                 display: grid;
+                 grid-template-columns: 1fr;
+                 gap:30px;
+              }
+        
+              section#Rreth-nesh a{
+                 text-decoration: none;
+              }
+        
+              section#Rreth-nesh h3{
+                 margin-left: 100px;
+                 color:  rgba(128, 34, 34, 0.897);
+                 font-size: 30px;
+              }
+        
+              section#Rreth-nesh  h3{
+                 text-align: center;
+                 color:  rgba(128, 34, 34, 0.897);
+                 font-size: 30px;
+              }
+        
+              section#Rreth-nesh .content p {
+                 padding-top: 100px;
+                 padding-left: 50px;
+              }
+        
+              section#Rreth-nesh .content li{
+                 padding-left: 50px;
+              }
+        
+              section#Rreth-nesh .content h2{
+                 padding-top: 50px;
+                 text-align: center;
+                 font-style: italic;
+                 color:  rgba(128, 34, 34, 0.897);
+              }
+        
+              section#Rreth-nesh .animacioni{
+               display: none;
+                 width: auto;
+                 margin-top: 100px;
+                 background: url(./foto/benkica1.jpg);
+                 background-position: center;
+                 background-size: cover;
+                 animation: slide 20s infinite;
+              }
+        
+              @keyframes slide{
+                 25%{
+                    background: url(./foto/bluza1.jpg);
+                    background-position: center;
+                    background-size: cover;
+                 }
+                 50%{
+                    background: url(./foto/duksi1.jpg);
+                    background-position: center;
+                    background-size: cover;
+                 }
+                 75%{
+                    background: url(./foto/maica3.jpg);
+                    background-position: center;
+                    background-size: cover;
+                 }
+                 100%{
+                    background: url(./foto/benkica1.jpg);
+                    background-position: center;
+                    background-size: cover;
+                 }
+               }
+        
+               section#Rreth-nesh .videot{
+                 margin-top: 100px;
+                 margin-left: 10px;
+               }
+               section#Rreth-nesh .videot video{
+                  width: 100%;
+               }
+        
+               section#Klientet{
+                 background-color: black;
+              color: white;
+              height: auto;
+              margin-bottom: 50px;
+               }
+        
+               section#Klientet h3{
+                 text-align: center;
+                 color:  rgba(128, 34, 34, 0.897);
+                 font-size: 30px;
+                 margin-bottom: 30px;
+               }
+        
+               section#Klientet .klientet {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                grid-column-gap: 10px;
+                grid-row-gap: 10px;
+               }
+        
+               section#Klientet  img{
+                 width: 250px;
+               }
+        
+               section#Vlersimet {
+                 background-color: black;
+              color: white;
+              height: auto;
+              margin-bottom: 50px;
+               }
+        
+               section#Vlersimet h3{
+                 text-align: center;
+                 color:  rgba(128, 34, 34, 0.897);
+                 font-size: 30px;
+                 margin-bottom: 30px;
+                 padding-top: 30px;
+               }
+        
+               section#Vlersimet .vlersimet{
+                 display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                grid-column-gap: 10px;
+                grid-row-gap: 10px;
+               }
+        
+               section#Vlersimet .klienti{
+                 height: 200px;
+                 width: auto;
+                 border: 1px solid white;
+                 padding-top: 50px;
+                 padding-left: 10px;
+                 background-color: rgb(46, 39, 39);
+               }
+        
+               section#Vlersimet .klienti blockquote{
+                 font-style: italic;
+               }
+        
+               section#Modelet{
+                 background-color: black;
+              color: white;
+              height: 100%;
+              margin-bottom: 50px;
+               }
+        
+               section#Modelet a{
+                 text-decoration: none;
+               }
+        
+               section#Modelet h3{
+                 text-align: center;
+                 color:  rgba(128, 34, 34, 0.897);
+                 font-size: 30px;
+                 margin-bottom: 30px;
+               }        
+               
+               section#Modelet .modelet{
+                 display: none;
+                grid-template-columns: repeat(1, 1fr);
+               }
+        
+               section#Modelet  img{
+                 width: 250px;
+                 transition: 0.2s ease;
+               }
+        
+               .modelet img:hover{
+                 transform: scale(1.1);
+               } 
+        
+               section#Modelet h4{
+                margin-left: 100px;
+               }
+        
+               .menuja{
+                 margin: auto;
+                 width: auto;
+                 background-color: rgba(51, 49, 49, 0.932);
+                 border: 1px solid white;
+                 display: grid;
+                 grid-template-columns: repeat(1, 1fr);
+                 padding: 10px 10px;
+                 grid-column-gap: 10px;
+                 grid-row-gap: 10px;
+              }
+        
+              .titulli{
+                 color: white;
+                 text-align: center;
+                 font-size: 25px;
+                 margin-top: 40px;
+                 margin-bottom: 40px;
+                 letter-spacing: 2px;
+              }
+        
+              .maicat img{
+                 width: 250px;
+                transition: 0.2s ease;
+              }
+        
+              .maicat img:hover{
+               transform: scale(1.1);
+              }
+           
+              section#porosia{
+                 margin: 50px auto;
+                 width: auto;
+                 height: 700px;
+                 background-color: rgba(0, 0, 0, 0.808);
+              }
+        
+              section#porosia a{
+                 text-align: center;
+                 color:  rgba(128, 34, 34, 0.897);
+                 text-decoration: none;
+                 font-size: 25px;
+              }
+        
+              section#porosia .forma{
+                margin-top: 50px;
+                text-align: center;
+                color:  white;
+              }
+        
+              section#porosia .forma form {
+                 padding-bottom: 10px;
+              }
+        
+              section#porosia .forma input{
+                 margin-bottom: 10px;
+                 border: 1px solid rgba(172, 163, 163, 0.404);
+                 background-color: rgba(128, 34, 34, 0.897);
+              }
+        
+              section#porosia .forma select{
+                 border: 1px solid rgba(172, 163, 163, 0.404);
+                 background-color: rgba(128, 34, 34, 0.897);
+              }
+        
+              section#porosia .forma textarea{
+                 border: 1px solid rgba(172, 163, 163, 0.404);
+                 background-color: rgba(128, 34, 34, 0.897);
+              } 
+        
+              footer .footer{
+                 height: auto;
+                 background-color: rgb(63, 2, 2);
+                 display: grid;
+                 grid-template-columns: repeat(1, 1fr);
+                 color: white;
+                 margin-bottom: 50px;
+              }
+             
+        
+              footer .pershkrimi  i{
+                 margin-top: 50px;
+                 text-align: center;
+                 border: 1px solid ;
+                 background-color: black;
+                 padding: 5px;
+                 color:  rgb(63, 2, 2);
+                 font-size: 25px;
+                 
+              }
+        
+              footer .footer-bottom{
+                 height: auto;
+                 background-color: black;
+                 display: grid;
+                 grid-template-columns: repeat(1, 1fr);
+                 color: white;
+              }
+        
+              footer .footer-bottom img{
+                 width: 150px;
+                 border-radius: 50%;
+              }
+        
+              footer .lokacioni a{
+                 text-decoration: none;
+              }
+        
+              footer .lokacioni h2{
+                 color: white;
+                 text-align: center;
+                 margin-bottom: 50px;
+              }
+        
+              footer .logo-posht p{
+                 margin-right: 50px;
+              }
+        
+              footer .menyja h3{
+                 margin-top: 30px;
+                 margin-bottom: 10px;
+              }
+        
+              footer .menyja ul {
+                 gap: 10px;
+              }
+        
+              footer .menyja ul li{
+                 list-style-type: none;
+                 padding-bottom: 15px;
+              }
+        
+              footer .menyja ul li a{
+                 text-decoration: none;
+                 color: brown;
+                 padding-bottom: 15px;
+              }
+        
+              footer .last-footer p{
+                 height: auto;
+                 background-color: white;
+                 padding-top: 10px;
+                 font-size: 13px;
+              }
+        
+              footer .kontakti h3{
+                 margin-top: 10px;
+                 margin-bottom: 10px;
+              }
+             
+              footer .kontakti .facebooki{
+                 color: blue; 
+              }
+              
+              footer .kontakti .instagrami{
+                 color: rgb(226, 43, 150);
+              }
+        
+              footer .kontakti .telefoni i{
+                 color: rgb(70, 59, 0);
+                 margin-bottom: 30px;
+              }
+      }
+
+
+
+      
+
+
+     
+
+      
+
+
+
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
